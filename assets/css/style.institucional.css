@@ -1,0 +1,609 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(240,240,240);
+}
+
+.first-margin {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #e0e0e0;
+    padding: 10px 0;
+    position: relative;
+}
+
+.contact {
+    display: flex;
+    margin-left: 75px;
+    list-style: none;
+    font-size: 13px;
+    color: rgb(1, 0, 80);
+}
+
+.contact li {
+    margin: 0 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(1, 0, 80);
+}
+
+.contact-social .icon-social {
+    color: rgb(1, 0, 80);
+}
+
+.contact-social {
+    display: flex;
+    list-style: none;
+    color: rgb(1, 0, 80);    
+}
+
+#mail-margin:hover {
+    color: rgb(3, 0, 190);
+}
+
+#mail-margin {
+    transition: color .2s linear .1s;
+}
+
+.contact-social i:hover {
+    color: rgb(3, 0, 190);
+}
+
+.contact-social i {
+    transition: color .2s linear .1s;
+}
+
+.contact-social li {
+    margin: 0 10px;
+}
+
+.button-vacantes {
+    font-size: 14px;
+    background-color: rgb(236,104,2);
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px!important;
+    margin-right: 75px;
+}
+
+.button-vacantes:hover{
+    background-color: rgb(227,56,48);
+}
+
+.button-vacantes {
+    transition: background-color .2s linear .1s;
+}
+
+.second-margin {
+    background-color: #ffffff;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion-logo {
+    display: flex;
+    text-decoration: none;
+}
+
+#logo-img {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 0, 80);
+    font-size: 30px;
+    padding: 10px 5px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 5px;
+    z-index: 100;
+}
+
+.menu_items li {
+    list-style: none;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    font-family: 'Roboto', sans-serif;
+    padding: 24px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(1, 0, 80);
+}
+
+.menu_items li:hover, li.active {
+    border-color: 2px rgb(1, 0, 80);
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 120px; 
+}
+
+.menu_items li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(236,104,2);
+}
+
+.menu_items li a {
+    transition: background-color .2s linear .1s;
+}
+.menu_items li a {
+    transition: color .2s linear .1s;
+}
+
+#menu_niveles {
+    background-color: rgb(230, 230, 230);
+    transition-duration: .5s;
+}
+
+.menu_items li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu_items li:hover > ul {
+    display: block;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    pointer-events: none;
+    background-color: rgb(240,240,240);
+}
+
+.titulo h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(236,104,2);
+}
+
+.titulo p {
+    font-size: 20px;
+}
+
+.mision-valores {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 100px;
+    pointer-events: none;
+}
+
+.mision-valores h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.mision-valores .columnas {
+    display: flex;
+    text-align: justify;
+}
+
+.mision-valores .columnas .col1 {
+    padding-right: 150px;
+}
+
+.mision-valores .columnas h4 {
+    padding-bottom: 20px;
+}
+
+.mision-valores .columnas p{
+    line-height: 30px;
+}
+
+.historia {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 100px;
+    pointer-events: none;
+}
+
+.historia h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.historia p {
+    line-height: 30px;
+}
+
+.identidad {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 100px;
+    pointer-events: none;
+}
+
+.identidad h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.identidad p {
+    line-height: 30px;
+}
+
+.button-wpp .icon{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.marginFinal-container {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.marginFinal-container .logo-escuela img{
+    width: 120px;
+    margin-right: 50px;
+    border-radius: 100%;
+}
+
+.secciones-container {
+    display: flex;
+}
+
+.pie {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(1, 0, 80), rgb(66, 66, 145));
+    font-family: 'Roboto', sans-serif;
+}
+
+.pie .pie-programador {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pie .pie-programador p {
+    margin-right: 30px;
+    color: #ccc;
+}
+
+.pie .pie-programador a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pie .secciones-extra {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 180px;
+}
+
+.pie .secciones-extra .sec-extra {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pie .secciones-extra .sec-extra{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pie .dataFiscal img {
+    width: 150px;
+}
+
+.marginFinal-container .secciones-container .seccion1,
+.marginFinal-container .secciones-container .seccion2,
+.marginFinal-container .secciones-container .seccion3 {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.marginFinal-container .secciones-container .seccion1 a,
+.marginFinal-container .secciones-container .seccion2 a,
+.marginFinal-container .secciones-container .seccion3 a {
+    text-decoration: none;
+    color: rgb(236,104,2);
+}
+
+.marginFinal-container .secciones-container .seccion1 a:hover,
+.marginFinal-container .secciones-container .seccion2 a:hover,
+.marginFinal-container .secciones-container .seccion3 a:hover {
+    color: rgb(227,56,48);
+}
+
+.marginFinal-container .secciones-container .seccion1 a,
+.marginFinal-container .secciones-container .seccion2 a,
+.marginFinal-container .secciones-container .seccion3 a {
+    transition: color .2s linear .1s;
+}
+
+.marginFinal-container .secciones-container .subSecciones {
+    margin-bottom: 20px;
+    color: rgb(1, 0, 80);
+    pointer-events: none;
+}
+
+.marginFinal-container .secciones-container .seccion1 hr,
+.marginFinal-container .secciones-container .seccion2 hr,
+.marginFinal-container .secciones-container .seccion3 hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+@media screen and (max-width: 952px) {
+
+    .seccion-logo .logo {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .menu_items {
+        font-size: 16px;
+    }
+
+    .contact {
+        display: none!important;
+    }
+
+    .first-margin {
+        align-content: center;
+    }
+
+}
+
+@media screen and (max-width: 858px) {
+
+    .menu {
+        height: 30px;
+    }
+
+    #logo-img {
+        margin-left: 30px;
+    }
+
+    .btn_menu {
+        display: inline-flex;
+    }
+
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        z-index: 100;
+    }
+
+    .menu_items.active body{
+        overflow: hidden !important;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        line-height: 10px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover {
+        color: #414141;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding-left: 25px;
+        margin-left: 10px;
+    }
+
+    #menu_niveles li{
+        width: 100vw;
+    }
+
+    #menu_niveles li a {
+        color: #414141;
+    }
+
+    .contact-social {
+        margin-left: 10px;
+        padding-right: 50px;
+    }
+
+    .novedades {
+        padding-bottom: 1500px;
+    }
+
+    .submenu_niveles {
+        margin-top: 100%;
+    }
+
+    .show-submenu {
+        margin-top: 0;
+    }
+
+    .hidden{
+        position: fixed;
+    }
+
+    .titulo .subtitulo{
+        width: 90vw;
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .mision-valores .columnas{
+        display: block;
+    }
+
+    .mision-valores h3 {
+        margin-right: -15px;
+        font-size: 20px;
+    }
+
+    .mision-valores .columnas{
+        margin-right: -210px;
+        margin-left: -50px;
+    }
+
+    .mision-valores .columnas .col2 {
+        margin-right: 150px;
+    }
+
+    .mision-valores .columnas .col1 {
+        padding-bottom: 30px;
+    }
+
+    .historia p{
+        margin-right: -55px;
+        margin-left: -50px;
+    }
+
+    .identidad p {
+        margin-right: -55px;
+        margin-left: -50px;
+        padding-bottom: 50px;
+    }
+
+    .marginFinal-container {
+        display: none;
+    }
+
+    .pie {
+        display: block;
+        text-align: center;
+    }
+
+    .pie .secciones-extra {
+        padding: 30px 40px;
+    }
+
+    .pie .dataFiscal {
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu_items li {
+        margin: 5px 0 0 0;
+    }
+
+    .menu_items {
+        overflow: scroll;
+        height: calc(100% - 120px);
+    }
+
+    .pie .secciones-extra {
+        padding: 30px 230px;
+    }
+
+    .seccion-galeria .galeria {
+        padding-left: 150px;
+        width: 600px;
+    }
+    
+    .button-vacantes {
+        margin-right: 25px;
+    }
+
+    .titulo, .subtitulo {
+        margin-left: 10px;
+    }
+}
